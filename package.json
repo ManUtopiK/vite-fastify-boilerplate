@@ -1,0 +1,36 @@
+{
+  "name": "vite-fastify-boilerplate",
+  "version": "0.0.1",
+  "description": "Fastify boilerplate with Vite & Vitest",
+  "main": "build/server.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --outDir build --ssr src/server.ts",
+    "start": "yarn build && node build/server.js",
+    "test": "vitest",
+    "coverage": "vitest --coverage"
+  },
+  "keywords": [
+    "vite",
+    "fastify",
+    "boilerplate",
+    "typescript",
+    "HMR"
+  ],
+  "author": "Emmanuel Salomon <emmanuel.salomon@gmail.com> (https://github.com/ManUtopiK)",
+  "license": "GPLv3",
+  "dependencies": {
+    "@types/node": "^17.0.8",
+    "env-schema": "^3.5.1",
+    "fastify": "^3.25.1",
+    "pino": "^7.6.2",
+    "pino-pretty": "^7.3.0"
+  },
+  "devDependencies": {
+    "@types/pino": "^7.0.5",
+    "c8": "^7.11.0",
+    "vite": "^2.7.10",
+    "vite-plugin-node": "^0.0.15",
+    "vitest": "^0.0.140"
+  }
+}
