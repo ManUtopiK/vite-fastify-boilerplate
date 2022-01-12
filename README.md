@@ -4,7 +4,7 @@
 
 # Fastify boilerplate with Vite & Vitest
 
-[![Coverage Status](https://coveralls.io/repos/github/ManUtopiK/vite-fastify-boilerplate/badge.svg?branch=master)](https://coveralls.io/github/ManUtopiK/vite-fastify-boilerplate?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/ManUtopiK/vite-fastify-boilerplate/badge.svg?branch=main)](https://coveralls.io/github/ManUtopiK/vite-fastify-boilerplate?branch=main)
 [![Sync Vulnerabilities Status](https://app.snyk.io/test/github/ManUtopiK/vite-fastify-boilerplate/badge.svg)](https://snyk.io/test/github/ManUtopiK/vite-fastify-boilerplate)
 
 Enhance your [Fastify](https://github.com/fastify/fastify) DX with the power of [Vite](https://vitejs.dev) & [Vitest](https://vitest.dev/).
@@ -20,7 +20,7 @@ Enhance your [Fastify](https://github.com/fastify/fastify) DX with the power of 
   - Fastify with logger
   - Production build without Vite
 
-So, it's super fast and ça va super vite 🚀
+So, it's super fast donc ça va super vite 🚀
 
 ## Why and How
 
@@ -72,9 +72,9 @@ pnpm start
 
 ## Code
 
-Main file: `src/app.ts`.
-Configure logger: `src/logger.ts`
-Change port in `.env`
+- Main file: `src/app.ts`
+- Configure logger: `src/logger.ts`
+- Change port in `.env`
 
 ### Docs
 
