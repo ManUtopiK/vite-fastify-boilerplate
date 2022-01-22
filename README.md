@@ -1,8 +1,6 @@
 <p align="center">
-<img src="https://i.postimg.cc/4yDHf30h/logo.png" alt="Fastivite"/>
+<img src="https://repository-images.githubusercontent.com/446977257/2937768f-1569-45a6-ac60-a7b44a78225b" alt="vite-fastify-boilerplate"/>
 </p>
-
-# Fastify boilerplate with Vite & Vitest
 
 [![Coverage Status](https://coveralls.io/repos/github/ManUtopiK/vite-fastify-boilerplate/badge.svg?branch=main)](https://coveralls.io/github/ManUtopiK/vite-fastify-boilerplate?branch=main)
 [![Sync Vulnerabilities Status](https://app.snyk.io/test/github/ManUtopiK/vite-fastify-boilerplate/badge.svg)](https://snyk.io/test/github/ManUtopiK/vite-fastify-boilerplate)
