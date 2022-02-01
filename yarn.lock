@@ -961,10 +961,10 @@ pino@^6.13.0:
     quick-format-unescaped "^4.0.3"
     sonic-boom "^1.0.2"
 
-pino@^7.6.2:
-  version "7.6.2"
-  resolved "https://registry.yarnpkg.com/pino/-/pino-7.6.2.tgz#73d09dcf13079fd0a2fa7e8648f715d5082e63d8"
-  integrity sha512-GTzW+HHOzUTaPIyvK6tasky2jMXF1o3iw7Oc2ik7qFjcaexXfyn6ej72XwX4O+wuRyFCbp3oKpv00htrPddv5A==
+pino@^7.6.3:
+  version "7.6.5"
+  resolved "https://registry.yarnpkg.com/pino/-/pino-7.6.5.tgz#a8bf9bfacbbcb78b4fe34f9378c29ef229b07b5d"
+  integrity sha512-38tAwlJ7HevMENHD5FZE+yxSlAH5Wg3FoOjbB3MX2j3/kgpOEkmDHhTVKkecR57qxD5doHo2yi9nac94gqqbiQ==
   dependencies:
     fast-redact "^3.0.0"
     on-exit-leak-free "^0.2.0"
