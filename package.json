@@ -20,7 +20,7 @@
   "author": "Emmanuel Salomon <emmanuel.salomon@gmail.com> (https://github.com/ManUtopiK)",
   "license": "GPLv3",
   "dependencies": {
-    "env-schema": "^3.5.1",
+    "env-schema": "^3.5.2",
     "fastify": "^3.25.2",
     "pino": "^7.6.2",
     "pino-pretty": "^7.3.0"
