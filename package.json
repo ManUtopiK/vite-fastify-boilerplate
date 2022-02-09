@@ -21,7 +21,7 @@
   "license": "GPLv3",
   "dependencies": {
     "env-schema": "^3.5.1",
-    "fastify": "^3.25.2",
+    "fastify": "^3.26.0",
     "pino": "^7.6.2",
     "pino-pretty": "^7.3.0"
   },
