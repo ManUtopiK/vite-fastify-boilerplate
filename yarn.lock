@@ -920,10 +920,10 @@ pino-abstract-transport@^0.5.0, pino-abstract-transport@v0.5.0:
     duplexify "^4.1.2"
     split2 "^4.0.0"
 
-pino-pretty@^7.3.0:
-  version "7.3.0"
-  resolved "https://registry.yarnpkg.com/pino-pretty/-/pino-pretty-7.3.0.tgz#277fdc2306a2f6d727a1127e7747d1c078efdd4b"
-  integrity sha512-HAhShJ2z2QzxXhYAn6XfwYpF13o1PQbjzSNA9q+30FAvhjOmeACit9lprhV/mCOw/8YFWSyyNk0YCq2EDYGYpw==
+pino-pretty@^7.4.0:
+  version "7.5.1"
+  resolved "https://registry.yarnpkg.com/pino-pretty/-/pino-pretty-7.5.1.tgz#4614b8c1077b718428c5a630749c905247951693"
+  integrity sha512-xEOUJiokdBGcZ9d0v7OY6SqEp+rrVH2drE3bHOUsK8elw44eh9V83InZqeL1dFwgD1IDnd6crUoec3hIXxfdBQ==
   dependencies:
     args "^5.0.1"
     colorette "^2.0.7"
