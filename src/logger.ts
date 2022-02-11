@@ -1,4 +1,4 @@
-import * as fs from 'fs'
+import fs from 'fs'
 
 // Create dir for logs
 const logDir = './logs'
