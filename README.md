@@ -1,8 +1,6 @@
 <p align="center">
-<img src="https://i.postimg.cc/4yDHf30h/logo.png" alt="Fastivite"/>
+<img src="https://repository-images.githubusercontent.com/446977257/2937768f-1569-45a6-ac60-a7b44a78225b" alt="vite-fastify-boilerplate"/>
 </p>
-
-# Fastify boilerplate with Vite & Vitest
 
 [![Coverage Status](https://coveralls.io/repos/github/ManUtopiK/vite-fastify-boilerplate/badge.svg?branch=main)](https://coveralls.io/github/ManUtopiK/vite-fastify-boilerplate?branch=main)
 [![Sync Vulnerabilities Status](https://app.snyk.io/test/github/ManUtopiK/vite-fastify-boilerplate/badge.svg)](https://snyk.io/test/github/ManUtopiK/vite-fastify-boilerplate)
@@ -122,6 +120,9 @@ import MyQuery from './MyQuery.gql'
 
 If you would like to make any contribution you are welcome to do so.
 
-## Bugs
+## Known issues
+
+- Websockets don't work with vite-plugin-node. [See here](https://github.com/axe-me/vite-plugin-node/issues/22). To develop with websockets, you should start Fastify as usual.
+- Vitest UI doesn't work.
 
 Please create an issue if you found any bugs, to help me improve this project!

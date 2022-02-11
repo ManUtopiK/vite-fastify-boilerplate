@@ -1,6 +1,6 @@
 {
   "name": "vite-fastify-boilerplate",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Fastify boilerplate with Vite & Vitest",
   "main": "build/server.js",
   "scripts": {
