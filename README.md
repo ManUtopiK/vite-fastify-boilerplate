@@ -2,8 +2,11 @@
 <img src="https://repository-images.githubusercontent.com/446977257/2937768f-1569-45a6-ac60-a7b44a78225b" alt="vite-fastify-boilerplate"/>
 </p>
 
-[![Coverage Status](https://coveralls.io/repos/github/ManUtopiK/vite-fastify-boilerplate/badge.svg?branch=main)](https://coveralls.io/github/ManUtopiK/vite-fastify-boilerplate?branch=main)
+[![GitHub license](https://img.shields.io/github/license/ManUtopiK/vite-fastify-boilerplate)](https://github.com/ManUtopiK/vite-fastify-boilerplate/blob/main/LICENCE)
+[![GitHub issues](https://img.shields.io/github/issues/ManUtopiK/vite-fastify-boilerplate)](https://github.com/ManUtopiK/vite-fastify-boilerplate/issues)
+[![Coverage Status](https://img.shields.io/badge/coverage-100-green.svg)](https://coveralls.io/github/ManUtopiK/vite-fastify-boilerplate?branch=main)
 [![Sync Vulnerabilities Status](https://app.snyk.io/test/github/ManUtopiK/vite-fastify-boilerplate/badge.svg)](https://snyk.io/test/github/ManUtopiK/vite-fastify-boilerplate)
+[![Twitter](https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2FManUtopiK%2Fvite-fastify-boilerplate)](https://twitter.com/intent/tweet?text=Wow%21%20%23Fastify%20with%20%23Vitejs%20and%20%23Vitest%20%F0%9F%9A%80&url=httpsgithub.com%2FManUtopiK%2Fvite-fastify-boilerplate)
 
 Enhance your [Fastify](https://github.com/fastify/fastify) DX with the power of [Vite](https://vitejs.dev) & [Vitest](https://vitest.dev/).
 
