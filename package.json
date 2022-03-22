@@ -11,14 +11,15 @@
     "coverage": "vitest --coverage"
   },
   "keywords": [
-    "vite",
     "fastify",
+    "vite",
+    "vitest",
     "boilerplate",
     "typescript",
     "HMR"
   ],
   "author": "Emmanuel Salomon <emmanuel.salomon@gmail.com> (https://github.com/ManUtopiK)",
-  "license": "GPLv3",
+  "license": "GPL-3.0-or-later",
   "dependencies": {
     "env-schema": "^3.5.2",
     "fastify": "^3.27.1",
