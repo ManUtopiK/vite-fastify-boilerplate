@@ -1,16 +1,16 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@types/node': ^17.0.38
-  '@vitest/ui': ^0.13.1
+  '@types/node': ^17.0.42
+  '@vitest/ui': ^0.14.2
   c8: ^7.11.3
   env-schema: ^5.0.0
   fastify: ^4.0.2
   pino: ^8.0.0
   pino-pretty: ^8.0.0
-  vite: ^2.9.9
+  vite: ^2.9.12
   vite-plugin-node: ^1.0.0
-  vitest: ^0.13.1
+  vitest: ^0.14.2
 
 dependencies:
   env-schema: 5.0.0
@@ -19,12 +19,12 @@ dependencies:
   pino-pretty: 8.0.0
 
 devDependencies:
-  '@types/node': 17.0.38
-  '@vitest/ui': 0.13.1
+  '@types/node': 17.0.42
+  '@vitest/ui': 0.14.2
   c8: 7.11.3
-  vite: 2.9.9
-  vite-plugin-node: 1.0.0_vite@2.9.9
-  vitest: 0.13.1_baewxcksk7k52bul4nl75m7fbi
+  vite: 2.9.12
+  vite-plugin-node: 1.0.0_vite@2.9.12
+  vitest: 0.14.2_jhxiu2vlk5x5jcooebga4tfivu
 
 packages:
 
@@ -97,12 +97,12 @@ packages:
     resolution: {integrity: sha512-z/QT1XN4K4KYuslS23k62yDIDLwLFkzxOuMplDtObz0+y7VqJCaO2o+SPwHCvLFZh7xazvvoor2tA/hPz9ee7g==}
     dev: true
 
-  /@types/node/17.0.38:
-    resolution: {integrity: sha512-5jY9RhV7c0Z4Jy09G+NIDTsCZ5G0L5n+Z+p+Y7t5VJHM30bgwzSjVtlcBxqAj+6L/swIlvtOSzr8rBk/aNyV2g==}
+  /@types/node/17.0.42:
+    resolution: {integrity: sha512-Q5BPGyGKcvQgAMbsr7qEGN/kIPN6zZecYYABeTDBizOsau+2NMdSVTar9UQw21A2+JyA2KRNDYaYrPB0Rpk2oQ==}
     dev: true
 
-  /@vitest/ui/0.13.1:
-    resolution: {integrity: sha512-o/xpr6yuS+4qS384BFZp1pDJ3ihWfS4U2t5sjN1CHVvKM9QzdPszp99kF9bbyxIzjCHy36NuspYbqLexqRARvg==}
+  /@vitest/ui/0.14.2:
+    resolution: {integrity: sha512-yV2paiv0/Obymx+9KV+KjM/FAbYF+PbnQiO2RFnZqDCgYwkkNmO1ZNNIetBeOzuNoi1BT1iPSKwtvL0PwCesDQ==}
     dependencies:
       sirv: 2.0.2
     dev: true
@@ -1290,7 +1290,7 @@ packages:
       convert-source-map: 1.8.0
     dev: true
 
-  /vite-plugin-node/1.0.0_vite@2.9.9:
+  /vite-plugin-node/1.0.0_vite@2.9.12:
     resolution: {integrity: sha512-oCB7PbeBtx0dWz+rQL3JXA1s6kqlqF8Mor9QTwhyQ7ChuJRzVs/ddVRuUfU/ZPMo9GSsaYUn7qsVNU8rS1EZdw==}
     peerDependencies:
       '@swc/core': ^1.2.153
@@ -1302,13 +1302,13 @@ packages:
       '@rollup/pluginutils': 4.2.1
       chalk: 4.1.2
       debug: 4.3.4
-      vite: 2.9.9
+      vite: 2.9.12
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /vite/2.9.9:
-    resolution: {integrity: sha512-ffaam+NgHfbEmfw/Vuh6BHKKlI/XIAhxE5QSS7gFLIngxg171mg1P3a4LSRME0z2ZU1ScxoKzphkipcYwSD5Ew==}
+  /vite/2.9.12:
+    resolution: {integrity: sha512-suxC36dQo9Rq1qMB2qiRorNJtJAdxguu5TMvBHOc/F370KvqAe9t48vYp+/TbPKRNrMh/J55tOUmkuIqstZaew==}
     engines: {node: '>=12.2.0'}
     hasBin: true
     peerDependencies:
@@ -1331,8 +1331,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitest/0.13.1_baewxcksk7k52bul4nl75m7fbi:
-    resolution: {integrity: sha512-CfSBf7YFw/i8HumSUQRtZKs0aV91DC9WU8nAgIJAlawKHaFuPHQohDwOTPIFgrxySiuFYUa0Yohf9gDFfBwjxA==}
+  /vitest/0.14.2_jhxiu2vlk5x5jcooebga4tfivu:
+    resolution: {integrity: sha512-vXQUl8OUCqHmxKWscMGL+6Xl1pBJmYHZ8N85iNpLGrirAC2vhspu7b73ShRcLonmZT44BYZW+LBAVvn0L4jyVA==}
     engines: {node: '>=v14.16.0'}
     hasBin: true
     peerDependencies:
@@ -1352,14 +1352,14 @@ packages:
     dependencies:
       '@types/chai': 4.3.1
       '@types/chai-subset': 1.3.3
-      '@vitest/ui': 0.13.1
+      '@vitest/ui': 0.14.2
       c8: 7.11.3
       chai: 4.3.6
       debug: 4.3.4
       local-pkg: 0.4.1
       tinypool: 0.1.3
       tinyspy: 0.3.2
-      vite: 2.9.9
+      vite: 2.9.12
     transitivePeerDependencies:
       - less
       - sass
