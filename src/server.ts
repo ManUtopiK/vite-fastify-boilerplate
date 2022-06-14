@@ -25,7 +25,7 @@ if (import.meta.env.PROD) {
       }
     })
 
-    app.listen(PORT as string, '0.0.0.0')
+    app.listen({ port: PORT as number, host: '0.0.0.0' })
     console.log(`Server started on 0.0.0.0:${PORT}`)
   } catch (err) {
     app.log.error(err)

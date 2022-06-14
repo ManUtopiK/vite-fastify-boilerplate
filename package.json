@@ -22,7 +22,7 @@
   "license": "GPL-3.0-or-later",
   "dependencies": {
     "env-schema": "^5.0.0",
-    "fastify": "^3.29.0",
+    "fastify": "^4.0.2",
     "pino": "^8.0.0",
     "pino-pretty": "^8.0.0"
   },
