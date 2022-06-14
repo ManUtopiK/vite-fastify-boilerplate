@@ -10,9 +10,12 @@ if (!fs.existsSync(logDir)) {
 // Set logger options
 const logger = import.meta.env.DEV
   ? {
-      prettyPrint: {
-        translateTime: 'HH:MM:ss.l',
-        ignore: 'pid,hostname'
+      transport: {
+        target: 'pino-pretty',
+        options: {
+          translateTime: 'HH:MM:ss.l',
+          ignore: 'pid,hostname'
+        }
       }
     }
   : {
