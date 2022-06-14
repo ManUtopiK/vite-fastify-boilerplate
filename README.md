@@ -126,7 +126,8 @@ If you would like to make any contribution you are welcome to do so.
 
 ## Known issues
 
-- Websockets don't work with vite-plugin-node. [See here](https://github.com/axe-me/vite-plugin-node/issues/22). To develop with websockets, you should start Fastify as usual.
+- `@fastify/autoload` doesn't work.
+- Websockets doesn't work with vite-plugin-node. [See here](https://github.com/axe-me/vite-plugin-node/issues/22). To develop with websockets, you should start Fastify as usual.
 - Vitest UI doesn't work.
 
 Please create an issue if you found any bugs, to help me improve this project!
