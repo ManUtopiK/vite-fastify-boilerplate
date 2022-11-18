@@ -6,8 +6,10 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build --outDir build --ssr src/server.ts",
+    "format": "prettier --config .prettierrc \"src/**/*.{js,json,ts,css,scss,vue,html,md}\" --write",
     "start": "yarn build && node build/server.js",
-    "test": "vitest",
+    "test": "vitest run",
+    "test:ui": "vitest --ui",
     "coverage": "vitest --coverage"
   },
   "keywords": [
@@ -21,17 +23,19 @@
   "author": "Emmanuel Salomon <emmanuel.salomon@gmail.com> (https://github.com/ManUtopiK)",
   "license": "GPL-3.0-or-later",
   "dependencies": {
-    "env-schema": "^5.0.0",
-    "fastify": "^4.0.2",
-    "pino": "^8.0.0",
-    "pino-pretty": "^8.0.0"
+    "env-schema": "^5.1.1",
+    "fastify": "^4.10.0",
+    "pino": "^8.7.0",
+    "pino-pretty": "^9.1.1"
   },
   "devDependencies": {
-    "@types/node": "^17.0.42",
-    "@vitest/ui": "^0.14.2",
-    "c8": "^7.11.3",
-    "vite": "^2.9.12",
+    "@types/node": "^18.11.9",
+    "@vitest/coverage-c8": "^0.25.2",
+    "@vitest/ui": "^0.25.2",
+    "c8": "^7.12.0",
+    "jsdom": "^20.0.2",
+    "vite": "^3.2.4",
     "vite-plugin-node": "^1.0.0",
-    "vitest": "^0.14.2"
+    "vitest": "^0.25.2"
   }
 }
