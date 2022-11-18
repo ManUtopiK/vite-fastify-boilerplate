@@ -30,7 +30,6 @@ export default defineConfig({
       tsCompiler: 'esbuild'
     })
   ],
-  test: {},
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src')
