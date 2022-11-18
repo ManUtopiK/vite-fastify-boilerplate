@@ -6,13 +6,10 @@
     "allowSyntheticDefaultImports": true,
     "target": "esnext",
     "module": "esnext",
-    "types": [
-      "vite/client"
-    ],
+    "types": ["vite/client"],
     "paths": {
-      "@/*": [
-        "./src/*"
-      ]
+      "~/*": ["./*"],
+      "@/*": ["./src/*"]
     }
   }
 }
