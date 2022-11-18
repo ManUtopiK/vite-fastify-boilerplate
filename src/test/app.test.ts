@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import fastify from '@/test'
+import fastify from './fastify'
 
 describe('Test server health', () => {
   it('serve GET /', async () => {

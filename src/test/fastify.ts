@@ -1,5 +1,5 @@
 import { beforeAll, afterAll } from 'vitest'
-import buildFastify from './app'
+import buildFastify from '../app'
 
 const fastify = buildFastify()
 
