@@ -9,7 +9,7 @@
     "format": "prettier --config .prettierrc \"src/**/*.{js,json,ts,css,scss,vue,html,md}\" --write",
     "start": "yarn build && node build/server.mjs",
     "test": "vitest run",
-    "test:ui": "vitest --ui",
+    "test:ui": "vitest --ui --api 9527",
     "coverage": "vitest --coverage"
   },
   "keywords": [
