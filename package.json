@@ -26,7 +26,7 @@
     "env-schema": "^5.1.1",
     "fastify": "^4.10.0",
     "pino": "^8.7.0",
-    "pino-pretty": "^9.1.1"
+    "pino-pretty": "^10.3.0"
   },
   "devDependencies": {
     "@types/node": "^18.11.9",
