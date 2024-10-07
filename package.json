@@ -1,6 +1,6 @@
 {
   "name": "vite-fastify-boilerplate",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Fastify boilerplate with Vite & Vitest",
   "main": "build/server.js",
   "scripts": {
@@ -23,19 +23,19 @@
   "author": "Emmanuel Salomon <emmanuel.salomon@gmail.com> (https://github.com/ManUtopiK)",
   "license": "GPL-3.0-or-later",
   "dependencies": {
-    "env-schema": "^5.1.1",
-    "fastify": "^4.10.0",
-    "pino": "^8.7.0",
-    "pino-pretty": "^9.1.1"
+    "env-schema": "^6.0.0",
+    "fastify": "^5.0.0",
+    "pino": "^9.4.0",
+    "pino-pretty": "^11.2.2"
   },
   "devDependencies": {
-    "@types/node": "^18.11.9",
-    "@vitest/coverage-c8": "^0.25.2",
-    "@vitest/ui": "^0.25.2",
-    "c8": "^7.12.0",
-    "jsdom": "^20.0.2",
-    "vite": "^3.2.4",
-    "vite-plugin-node": "^1.0.0",
-    "vitest": "^0.25.2"
+    "@types/node": "^22.7.5",
+    "@vitest/coverage-v8": "2.1.2",
+    "@vitest/ui": "^2.1.2",
+    "c8": "^10.1.2",
+    "jsdom": "^25.0.1",
+    "vite": "^5.4.8",
+    "vite-plugin-node": "^3.1.0",
+    "vitest": "^2.1.2"
   }
 }
